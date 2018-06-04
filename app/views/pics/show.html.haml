@@ -3,6 +3,13 @@
 
 %p= @pic.description
 
+%p
+Pic by
+= @pic.user.email
+
+%br
+%br
+
 
 =link_to "Back", root_path
 =link_to "Edit", edit_pic_path
